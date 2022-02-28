@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = "https://api-varbook.uiuing.com"
+axios.defaults.baseURL = ""
 
 export default axios
