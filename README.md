@@ -10,7 +10,7 @@ VARBook(变量本) 致力于帮助中文程序员提高英语编码能力，功�
 ![VARBookHome](https://user-images.githubusercontent.com/73827386/148784850-229f6b8b-a1f6-4d35-8e7c-f25e8b6f239e.png)
 <br>
 
-### TODO 期待2022年3月前完成
+### TODO 期待2022年10月前完成
 
 **功能**
 
