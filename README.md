@@ -3,7 +3,7 @@
 </a>
 
 # VARBook
-VARBook(变量本) 程序员的语言助手，输入中文，智能转换成英文变量
+VARBook(变量本) 程序员的英语助手，输入中文，智能转换为英文变量
 
 快速访问 👉 https://varbook.uiuing.com/
 
