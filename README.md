@@ -1,58 +1,26 @@
-<a href="https://varbook.uiuing.com" target="_blank">
-<img src="https://user-images.githubusercontent.com/73827386/148187928-2db0116a-3a0e-486b-a427-2f5d959b37c3.jpg">
-</a>
+<br />
+
+<div align="center">
+    <a href="https://varbook.uiuing.com" target="_blank">
+        <img src="https://user-images.githubusercontent.com/73827386/179419364-cf246ec3-6b37-4c00-bf21-9ebbca68b6df.png" width="100" height="100">
+    </a>
+</div>
 
 # VARBook
-VARBook(变量本) 程序员的英语助手，输入中文，智能转换为英文变量
+**适合中文程序员的变量命名助手，NLP+翻译，规范变量命名，定制化变量命名规则**
 
 快速访问 👉 https://varbook.uiuing.com/
 
-![VARBookHome](https://user-images.githubusercontent.com/73827386/148784850-229f6b8b-a1f6-4d35-8e7c-f25e8b6f239e.png)
-<br>
+![VARBookHome](https://user-images.githubusercontent.com/73827386/179419670-d6557878-002e-47d2-a34c-aa1739224ca0.png)
 
-### TODO 期待2022年10月前完成
-
-**功能**
-
-- [x] 智能生成英文变量名
-- [x] 智能生成英文注释
-- [x] 智能复制
-- [ ] 全站内容加速
-- [ ] 全站使用统计
-- [ ] NLP优化
-
-**客户端**
-
-- [x] Web
-- [ ] Chrome浏览器插件
-- [ ] jetbrains plugins
-
-> 目前完成度
+> 使用小技巧:
+> 
+> > 1、按 Ctrl 自动对焦搜索框，Ctrl + Enter 自动搜索
 >
-> <img height="100px" src="https://user-images.githubusercontent.com/73827386/148787003-703a746c-2368-47aa-a7f2-877795f2865c.png"></img>
+> > 2、若想保留关键词，请使用空格与英文搭配
 
-<br>
+<br />
 
-> VARBook正在逐步完善中..欢迎大家出谋划策
-<br>
+# Plugins
 
-
-### 关于作者
-在校学生, 用爱发电
-
-功能虽小, 精心制作
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+开发中 ...
