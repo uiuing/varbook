@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:vue/vue3-recommended",
+    "prettier"
+  ],
+  "plugins": ["simple-import-sort", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "never"]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".js", ".vue"]
+      }
+    }
+  }
+}

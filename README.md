@@ -28,14 +28,12 @@ VARBook(变量本) 程序员的英语助手，输入中文，智能转换为英�
 - [ ] jetbrains plugins
 
 > 目前完成度
-> 
+>
 > <img height="100px" src="https://user-images.githubusercontent.com/73827386/148787003-703a746c-2368-47aa-a7f2-877795f2865c.png"></img>
-
 
 <br>
 
 > VARBook正在逐步完善中..欢迎大家出谋划策
-
 <br>
 
 
@@ -44,3 +42,17 @@ VARBook(变量本) 程序员的英语助手，输入中文，智能转换为英�
 
 功能虽小, 精心制作
 
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
