@@ -41,6 +41,7 @@ watch(content, () => {
 
 .tips-by {
   margin-left: 40px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: normal;
 }
 </style>

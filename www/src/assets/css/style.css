@@ -1,6 +1,7 @@
 body {
-  min-width: 500px;
-  overflow: hidden;
+  min-height: 900px;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-color: var(--varBook-background-color);
 }
 
@@ -69,7 +70,6 @@ body {
 
 /* stylelint-disable-next-line */
 .el-input__wrapper {
-  /* TODO 颜色 */
   background-color: var(--varBook-input-background-color) !important;
   border-radius: 100px !important;
 }
@@ -88,14 +88,15 @@ body {
 
 .total-translate {
   position: fixed;
-  right: 0;
   bottom: 0;
-  left: 0;
+  z-index: 999;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  margin-bottom: 40px;
+  height: 22px;
+  padding: 10px 0;
+  background-color: var(--varBook-background-color);
 }
 
 /* stylelint-disable-next-line */
@@ -171,7 +172,7 @@ body {
 
   .e-search-tips {
     margin: 8px 14px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .named-table {

@@ -24,7 +24,7 @@ const placeholder = reactive({
 })
 
 const tips = [
-  '按 Ctrl 自动对焦搜索框，Ctrl + Enter 自动搜索',
+  '按 Ctrl 自动对焦搜索框，Enter 自动搜索',
   '若想保留关键词，请使用空格与英文搭配'
 ]
 const tip = reactive({ index: 0, value: tips[0] })
@@ -62,7 +62,8 @@ const vFocus = {
       size="large"
       :placeholder="placeholder.value"
       maxlength="15"
-      @keydown.enter.ctrl="startSearch"
+      autofocus
+      @keydown.enter="startSearch"
     >
       <template #suffix>
         <Search class="icon-search" @click="startSearch" />
