@@ -30,16 +30,19 @@ const updateHash = (hashValue) => {
   search.setContent(hashValue)
   title.set(hashValue)
   const searchBody = enBase64(hashValue)
+  search.setIsLoading(true)
   getTranslate(searchBody)
     .then((data) => {
       if (data.code === 200) {
         search.setNamedVariables(data.data.namedVariables)
       } else {
         sendWarn(data.msg)
+        search.setIsLoading(false)
       }
     })
     .catch(() => {
       sendWarn('服务器扛不住啦～，请稍后再试')
+      search.setIsLoading(false)
     })
 }
 

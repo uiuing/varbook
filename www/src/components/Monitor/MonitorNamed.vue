@@ -11,6 +11,9 @@ import { copy } from '@/utils/window/location'
 const search = useSearch()
 const namedVariables = computed(() => search.namedVariables)
 
+const tableData = ref(parseNamedVariable(namedVariables.value))
+const isLoading = computed(() => search.isLoading)
+
 const sendNotification = (title, message, type) =>
   ElNotification({
     title,
@@ -19,8 +22,6 @@ const sendNotification = (title, message, type) =>
     dangerouslyUseHTMLString: true,
     offset: 60
   })
-
-const tableData = ref([])
 
 watch(namedVariables, (newVal) => {
   const autoStyleKey = copy.auto(newVal)
@@ -32,6 +33,7 @@ watch(namedVariables, (newVal) => {
     )
   }
   tableData.value = parseNamedVariable(newVal)
+  search.setIsLoading(false)
 })
 
 const copyData = (style, key, value) => {
@@ -43,7 +45,11 @@ const copyData = (style, key, value) => {
 
 <template>
   <div v-show="'smallHump' in namedVariables" class="named-table">
-    <el-table :data="tableData" :highlight-current-row="false">
+    <el-table
+      v-loading="isLoading"
+      :data="tableData"
+      :highlight-current-row="false"
+    >
       <el-table-column
         prop="style"
         label="变量命名法"

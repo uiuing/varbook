@@ -5,7 +5,9 @@ const useSearch = defineStore('search', {
     /** @type {string} */
     content: '',
     /** @type {$ObjMap} */
-    namedVariables: {}
+    namedVariables: {},
+    /** @type {boolean} */
+    isLoading: true
   }),
   actions: {
     setContent(content) {
@@ -13,6 +15,9 @@ const useSearch = defineStore('search', {
     },
     setNamedVariables(namedVariables) {
       this.namedVariables = namedVariables
+    },
+    setIsLoading(isLoading) {
+      this.isLoading = isLoading
     }
   }
 })
