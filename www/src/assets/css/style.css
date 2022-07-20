@@ -104,6 +104,10 @@ body {
   overflow: hidden;
 }
 
+.el-loading-mask{
+  background-color: var(--varBook-background-color);
+}
+
 @media (max-width: 1150px) {
   .wrapper {
     width: 768px;
