@@ -25,13 +25,18 @@ const placeholder = reactive({
 
 const tips = [
   '按 Ctrl 自动对焦搜索框，Enter 自动搜索',
-  '若想保留关键词，请使用空格与英文搭配'
+  '若想保留关键词，请使用空格与英文搭配',
+  '每次会自动复制上一次手动复制的变量命名类型哦'
 ]
 const tip = reactive({ index: 0, value: tips[0] })
 
 setInterval(() => {
-  tip.index = tip.index === 0 ? 1 : 0
-  tip.value = tips[tip.index]
+  if (tip.index === tips.length) {
+    tip.index = 0;
+  } else {
+    tip.value = tips[tip.index]
+    tip.index++;
+  }
   setTimeout(() => {
     placeholder.index = placeholder.index === 0 ? 1 : 0
     placeholder.value = placeholders[placeholder.index]
@@ -79,7 +84,6 @@ const vFocus = {
   height: 1.5em;
   margin-right: 8px;
 }
-
 .icon-search:hover {
   color: #303133;
 }
