@@ -37,7 +37,6 @@ setInterval(() => {
     tip.value = tips[tip.index]
     tip.index++;
   }
-
   setTimeout(() => {
     placeholder.index = placeholder.index === 0 ? 1 : 0
     placeholder.value = placeholders[placeholder.index]
@@ -62,8 +61,15 @@ const vFocus = {
 
 <template>
   <div class="enter-search">
-    <el-input v-model="content" v-focus="isFocus" size="large" :placeholder="placeholder.value" maxlength="15" autofocus
-      @keydown.enter="startSearch">
+    <el-input
+      v-model="content"
+      v-focus="isFocus"
+      size="large"
+      :placeholder="placeholder.value"
+      maxlength="15"
+      autofocus
+      @keydown.enter="startSearch"
+    >
       <template #suffix>
         <Search class="icon-search" @click="startSearch" />
       </template>
@@ -78,7 +84,6 @@ const vFocus = {
   height: 1.5em;
   margin-right: 8px;
 }
-
 .icon-search:hover {
   color: #303133;
 }
