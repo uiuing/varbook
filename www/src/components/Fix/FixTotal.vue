@@ -3,7 +3,7 @@ import { computed, ref, watch } from 'vue'
 
 import useSearch from '@/store/search'
 import { getTotal } from '@/utils/api/rest/total'
-import { formatNumber } from '@/utils/character/formatNumber'
+import formatNumber from '@/utils/character/formatNumber'
 
 const search = useSearch()
 
@@ -26,9 +26,12 @@ watch(content, () => {
 
 <template>
   <div class="total-translate">
-    <span class="tips-total">已处理：{{ formatNumber(totalCharAct) }} 个字符</span>
+    <span class="tips-total"
+      >已处理：{{ formatNumber(totalCharAct) }}个字符</span
+    >
     <el-link href="https://uiuing.com" target="_blank" class="tips-by">
-      Powered by: uiuing</el-link>
+      Powered by: uiuing</el-link
+    >
   </div>
 </template>
 

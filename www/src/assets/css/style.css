@@ -104,7 +104,7 @@ body {
   overflow: hidden;
 }
 
-.el-loading-mask{
+.el-loading-mask {
   background-color: var(--varBook-background-color);
 }
 

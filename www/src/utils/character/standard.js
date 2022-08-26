@@ -1,12 +1,7 @@
-const parseContent = (content) =>
-  content
-    ? content
-        .trim()
-        .match(/[a-zA-Z0-9\s\u4e00-\u9fa5\uF900-\uFA2D]+/gi)
-        .join('')
-        .replaceAll(/\s+/g, ' ')
-    : content
-
+const parseContent = (content) => {
+  const _ = content.trim().match(/[a-zA-Z0-9\s\u4e00-\u9fa5\uF900-\uFA2D]+/gi)
+  return _ ? _.join('').replaceAll(/\s+/g, ' ') : ''
+}
 /**
  * @description Checking strings for api compliance - Judgement content and length requirements
  * @param {String} content
@@ -59,5 +54,4 @@ const parseNamedVariable = (namedVariables) => {
   return out
 }
 
-// eslint-disable-next-line import/prefer-default-export
 export { checkContent, parseContent, parseNamedVariable, STYLE_LANG }

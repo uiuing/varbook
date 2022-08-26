@@ -32,10 +32,10 @@ const tip = reactive({ index: 0, value: tips[0] })
 
 setInterval(() => {
   if (tip.index === tips.length) {
-    tip.index = 0;
+    tip.index = 0
   } else {
     tip.value = tips[tip.index]
-    tip.index++;
+    tip.index += 1
   }
   setTimeout(() => {
     placeholder.index = placeholder.index === 0 ? 1 : 0
@@ -84,6 +84,7 @@ const vFocus = {
   height: 1.5em;
   margin-right: 8px;
 }
+
 .icon-search:hover {
   color: #303133;
 }
