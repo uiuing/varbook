@@ -23,13 +23,6 @@
 
 # Plugins
 
-## YuIndex
-YuIndex 仓库地址：https://github.com/liyupi/yuindex
-
-![image](https://user-images.githubusercontent.com/73827386/183252302-8248e1c2-cbaf-4ed9-92f5-c1f85d0436e0.png)
-
-<p></p>
-
 ## VsCode
 开发中 ...
 
