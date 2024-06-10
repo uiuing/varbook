@@ -1,15 +1,15 @@
 <br />
 
 <div align="center">
-    <a href="https://varbook.uiuing.com" target="_blank">
+    <a href="https://varbook.uius.site" target="_blank">
         <img src="https://user-images.githubusercontent.com/73827386/179419364-cf246ec3-6b37-4c00-bf21-9ebbca68b6df.png" width="100" height="100">
     </a>
 </div>
 
 # VARBook
-**适合中文程序员的变量命名助手，NLP+翻译，规范变量命名，定制化变量命名规则**
+**适合中文程序员的变量命名助手，LLM+知识库，规范变量命名，定制化变量命名规则**
 
-快速访问 👉 https://varbook.uiuing.com/
+快速访问 👉 [https://varbook.uius.site](https://varbook.uius.site)
 
 ![VARBookHome](https://user-images.githubusercontent.com/73827386/179419670-d6557878-002e-47d2-a34c-aa1739224ca0.png)
 
@@ -18,6 +18,15 @@
 > > 1、按 Ctrl 自动对焦搜索框，Enter 自动搜索
 >
 > > 2、若想保留关键词，请使用空格与英文搭配
+
+<br />
+
+# 更新内容
+**VARBOOK 回来啦，NLP升级LLM，llama 3 + milvus 基于GitHub/Gitee 优质repo训练知识库；虽然LLM用来做变量命名有点大材小用[破涕为笑]；**
+
+**已累计学习 29.47 万优质变量命名**
+
+**更新日期：2024年6月10日**
 
 <br />
 
