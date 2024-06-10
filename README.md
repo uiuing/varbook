@@ -21,12 +21,11 @@
 
 <br />
 
-# 更新内容
-**VARBOOK 回来啦，NLP升级LLM，llama 3 + milvus 基于GitHub/Gitee 优质repo训练知识库；虽然LLM用来做变量命名有点大材小用[破涕为笑]；**
-
-**已累计学习 29.47 万优质变量命名**
-
+## 更新内容
 **更新日期：2024年6月10日**
+- VARBOOK 回来啦，NLP升级LLM，llama 3 + milvus 基于GitHub/Gitee 优质repo训练知识库；虽然LLM用来做变量命名有点大材小用；
+- 已累计学习 29.47 万优质变量命名
+
 
 <br />
 
