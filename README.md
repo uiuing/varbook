@@ -11,7 +11,7 @@
 
 快速访问 👉 [https://varbook.uius.site](https://varbook.uius.site)
 
-![VARBookHome](https://user-images.githubusercontent.com/73827386/179419670-d6557878-002e-47d2-a34c-aa1739224ca0.png)
+![varbook uius site_](https://github.com/uiuing/varbook/assets/73827386/591dca90-5ceb-4842-859c-9672b25870f6)
 
 > 使用小技巧:
 > 
